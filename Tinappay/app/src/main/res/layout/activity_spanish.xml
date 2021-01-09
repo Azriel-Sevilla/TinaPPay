@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Spanish"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="100px"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_gravity="center"
+        android:src="@drawable/tinapay1"/>
+
+    <TextView
+        android:layout_marginTop="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spanish"
+        android:textSize="100px"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_marginLeft="15px"
+        android:layout_marginTop="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingridients"
+        android:gravity="center"
+        android:textSize="50px"
+        android:textColor="@color/black"/>
+
+    <TextView
+
+        android:layout_marginLeft="15px"
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info : asasdadadadadadadd"
+        android:textSize="50px"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_marginLeft="15px"
+        android:layout_marginTop="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info : adadadadadadadad"
+        android:textSize="50px"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_marginLeft="15px"
+        android:layout_marginTop="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info : adadadadadadadad"
+        android:textSize="50px"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>
