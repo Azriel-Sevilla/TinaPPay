@@ -4,17 +4,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/tinapay"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/tinapay"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tinappay" >
-        <activity android:name=".tinapay4" >
+        <activity android:name=".spanish" >
         </activity>
-        <activity android:name=".tinapay3" />
-        <activity android:name=".tinapay2" />
-        <activity android:name=".tinapay1" />
-        <activity android:name=".Spanish" />
+        <activity android:name=".starbread" />
+        <activity android:name=".cheeseroll" />
+        <activity android:name=".pandesal" />
+        <activity android:name=".monay" />
         <activity android:name=".StartActivity" />
         <activity android:name=".home" />
         <activity android:name=".MainActivity"

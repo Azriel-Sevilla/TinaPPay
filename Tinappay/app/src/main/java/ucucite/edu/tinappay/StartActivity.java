@@ -32,8 +32,8 @@ public class StartActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Tinapay List");
 
-        title = new String[]{"Spanish", "Tinapay 1", "Tinapay 2","Tinapay 3", "Tinapay 4"};
-        description = new String[]{"Spanish detail...", "Tinapay 1 detail...", "Tinapay 2 detail...", "Tinapay 3 detail...", "Tinapay 4 detail..."};
+        title = new String[]{"Monay", "Pandesal", "Cheese Dog Bread Rolls","Star Bread", "Spanish Bread"};
+        description = new String[]{"Monay detail...", "Pandesal detail...", "Cheese Dog Bread Rolls detail...", "Star Bread detail...", "Spanish Bread detail..."};
         icon = new int[]{R.drawable.tinapay1, R.drawable.tinapay2, R.drawable.tinapay3, R.drawable.tinapay4, R.drawable.tinapay5};
 
         listView = findViewById(R.id.listView);

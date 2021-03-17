@@ -78,39 +78,39 @@ public class ListViewAdapter extends BaseAdapter{
             @Override
             public void onClick(View view) {
                 //code later
-                if (modellist.get(postition).getTitle().equals("Spanish")){
+                if (modellist.get(postition).getTitle().equals("Monay")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, Spanish.class);
-                    intent.putExtra("actionBarTitle", "Spanish");
-                    intent.putExtra("contentTv", "This is Spanish detail...");
+                    Intent intent = new Intent(mContext, monay.class);
+                    intent.putExtra("actionBarTitle", "Monay");
+                    intent.putExtra("contentTv", "This is Monay detail...");
                     mContext.startActivity(intent);
                 }
-                if (modellist.get(postition).getTitle().equals("Tinapay 1")){
+                if (modellist.get(postition).getTitle().equals("Pandesal")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, tinapay1.class);
-                    intent.putExtra("actionBarTitle", "Tinapay 1");
-                    intent.putExtra("contentTv", "This is Tinapay 1 detail...");
+                    Intent intent = new Intent(mContext, pandesal.class);
+                    intent.putExtra("actionBarTitle", "Pandesal");
+                    intent.putExtra("contentTv", "This is Pandesal detail...");
                     mContext.startActivity(intent);
                 }
-                if (modellist.get(postition).getTitle().equals("Tinapay 2")){
+                if (modellist.get(postition).getTitle().equals("Cheese Dog Bread Rolls")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, tinapay2.class);
-                    intent.putExtra("actionBarTitle", "Tinapay 2");
-                    intent.putExtra("contentTv", "This is Tinapay 2 detail...");
+                    Intent intent = new Intent(mContext, cheeseroll.class);
+                    intent.putExtra("actionBarTitle", "Cheese Dog Bread Rolls");
+                    intent.putExtra("contentTv", "This is Cheese Dog Bread Rolls detail...");
                     mContext.startActivity(intent);
                 }
-                if (modellist.get(postition).getTitle().equals("Tinapay 3")){
+                if (modellist.get(postition).getTitle().equals("Star Bread")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, tinapay3.class);
-                    intent.putExtra("actionBarTitle", "Tinapay 3");
-                    intent.putExtra("contentTv", "This is Tinapay 3 detail...");
+                    Intent intent = new Intent(mContext, starbread.class);
+                    intent.putExtra("actionBarTitle", "Star Bread");
+                    intent.putExtra("contentTv", "This is Star Bread detail...");
                     mContext.startActivity(intent);
                 }
-                if (modellist.get(postition).getTitle().equals("Tinapay 4")){
+                if (modellist.get(postition).getTitle().equals("Spanish Bread")){
                     //start NewActivity with title for actionbar and text for textview
-                    Intent intent = new Intent(mContext, tinapay4.class);
-                    intent.putExtra("actionBarTitle", "Tinapay 4");
-                    intent.putExtra("contentTv", "This is Tinapay 4 detail...");
+                    Intent intent = new Intent(mContext, spanish.class);
+                    intent.putExtra("actionBarTitle", "Spanish Bread");
+                    intent.putExtra("contentTv", "This is Spanish Bread detail...");
                     mContext.startActivity(intent);
                 }
             }
